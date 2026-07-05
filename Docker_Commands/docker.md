@@ -383,3 +383,24 @@ docker system prune -a
 ```
 
 > **Warning:** This permanently deletes unused Docker resources.
+
+| Command | Purpose |
+|----------|---------|
+| `docker pull <image>` | Download an image from Docker Hub |
+| `docker images` | List downloaded images |
+| `docker run <image>` | Create and start a container |
+| `docker run -it <image>` | Run a container interactively |
+| `docker ps` | List running containers |
+| `docker ps -a` | List all containers |
+| `docker stop <container>` | Stop a running container |
+| `docker start <container>` | Start a stopped container |
+| `docker rm <container>` | Remove a stopped container |
+| `docker rmi <image>` | Remove a Docker image |
+| `docker logs <container>` | View container logs |
+| `docker exec -it <container> bash` | Open a shell inside a running container |
+| `docker inspect <name>` | Show detailed information |
+| `docker network ls` | List Docker networks |
+| `docker volume ls` | List Docker volumes |
+| `docker system prune` | Remove unused Docker resources |
+| `docker version` | Show Docker version |
+| `docker info` | Display Docker system information |s
